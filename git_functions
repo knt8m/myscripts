@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git_init() {
+    local GIT_CONFIG_LEVEL="$1"
+    git config $GIT_CONFIG_LEVEL user.name Kanata
+    git config $GIT_CONFIG_LEVEL user.email kanata8m@gmail.com
+}
